@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GIT</h1>
+    <p>Git is a <b>Version Control System(VCS)</b> .</p>
+    <p>It's like a time machine for your code. It helps you:</p>
+    <ul>
+        <li>Save project history</li>
+        <li>Track changes</li>
+        <li>Undo mistakes</li>
+        <li>Work on features safely</li>
+        <li>Collaborate with other developers.</li>
+    </ul>
+
+     <h2>Installing</h2>
+    <p>Check if Git is installed:</p>
+    <pre><code>git --version</code></pre>
+    <p>install git:</p>
+    <pre><code>sudo apt install git</code></pre>
+
+    <h2>SetUp</h2>
+    <p>Set up your name and email:</p>
+    <pre>
+        <code>git config --global user.name "Your Name"
+        git config --global user.email "your.email@example.com"
+        </code>
+    </pre>
+
+    <h2>Check your configuration</h2>
+    <pre><code>git config --list</code></pre>
+    <p>Now you are ready to use git!!!</p>
+
+    <h1>CREATING A REPOSITORY</h1>
+    <p>A repository is a folder that contains your project and all the git history.</p>
+
+    <p>create a folder</p>
+    <pre><code>mkdir my-project</code></pre>
+
+    <p>navigate to your folder</p>
+    <pre><code>cd my-project</code></pre>
+
+    <p>Initialize Git:</p>
+    <pre><code>git init</code></pre>
+
+    <p>check status</p>
+    <pre><code>git status</code></pre>
+
+    <p>Add file to staging area.</p>
+    <pre><code>git add dummy.txt</code></pre>
+
+    <p>Add every change</p>
+    <pre><code>git add .</code></pre>
+</body>
+</html>
